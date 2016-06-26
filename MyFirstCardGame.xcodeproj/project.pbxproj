@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C945D751D2C173B00E3301B /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C945D721D2C173B00E3301B /* Card.m */; };
+		2C945D761D2C173B00E3301B /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C945D741D2C173B00E3301B /* Deck.m */; };
 		BC6AB6631D19B42C00F31F46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6AB6621D19B42C00F31F46 /* main.m */; };
 		BC6AB6661D19B42C00F31F46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6AB6651D19B42C00F31F46 /* AppDelegate.m */; };
 		BC6AB6691D19B42C00F31F46 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6AB6681D19B42C00F31F46 /* ViewController.m */; };
@@ -16,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C945D711D2C173B00E3301B /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		2C945D721D2C173B00E3301B /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		2C945D731D2C173B00E3301B /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		2C945D741D2C173B00E3301B /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
 		BC6AB65E1D19B42C00F31F46 /* MyFirstCardGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstCardGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC6AB6621D19B42C00F31F46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BC6AB6641D19B42C00F31F46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -60,6 +66,10 @@
 			children = (
 				BC6AB6641D19B42C00F31F46 /* AppDelegate.h */,
 				BC6AB6651D19B42C00F31F46 /* AppDelegate.m */,
+				2C945D711D2C173B00E3301B /* Card.h */,
+				2C945D721D2C173B00E3301B /* Card.m */,
+				2C945D731D2C173B00E3301B /* Deck.h */,
+				2C945D741D2C173B00E3301B /* Deck.m */,
 				BC6AB6671D19B42C00F31F46 /* ViewController.h */,
 				BC6AB6681D19B42C00F31F46 /* ViewController.m */,
 				BC6AB66A1D19B42C00F31F46 /* Main.storyboard */,
@@ -149,9 +159,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C945D761D2C173B00E3301B /* Deck.m in Sources */,
 				BC6AB6691D19B42C00F31F46 /* ViewController.m in Sources */,
 				BC6AB6661D19B42C00F31F46 /* AppDelegate.m in Sources */,
 				BC6AB6631D19B42C00F31F46 /* main.m in Sources */,
+				2C945D751D2C173B00E3301B /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +312,7 @@
 				BC6AB6771D19B42C00F31F46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

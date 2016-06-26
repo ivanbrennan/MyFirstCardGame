@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@class Deck;
+
 @interface ViewController : UIViewController
 
+@property (strong) Deck *deck;
 
 @end
-
