@@ -10,12 +10,12 @@
 
 @implementation Card
 
-- (instancetype)initWithSuite:(NSString *)suite rank:(NSString *)rank {
+- (instancetype)initWithSuite:(NSString *)aSuite rank:(NSString *)aRank {
   self = [super init];
 
   if (self) {
-    self.suite = suite;
-    self.rank = rank;
+    self.suite = aSuite;
+    self.rank = aRank;
   }
 
   return self;

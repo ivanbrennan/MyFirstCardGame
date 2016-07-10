@@ -12,12 +12,10 @@
 
 @interface Deck : NSObject
 
-@property (strong) NSArray *suites;
-@property (strong) NSArray *ranks;
 @property (strong) NSMutableArray *cards;
 
-- (instancetype)initWithSuites:(NSArray *)suites ranks:(NSArray *)ranks;
+- (void)addCard:(Card *)aCard;
 - (void)shuffle;
-- (Card*)topCard;
+- (Card*)getTopCard;
 
 @end

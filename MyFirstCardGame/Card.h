@@ -16,7 +16,7 @@
 @property (strong) NSString *suite;
 @property (strong) NSString *rank;
 
-- (instancetype)initWithSuite:(NSString *)suite rank:(NSString *)rank;
+- (instancetype)initWithSuite:(NSString *)aSuite rank:(NSString *)aRank;
 - (NSString *)label;
 
 @end
